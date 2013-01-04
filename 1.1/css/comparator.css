@@ -1,0 +1,95 @@
+table#product_comparison {
+	width:100%;
+}
+#product_comparison tr.comparison_header {font-weight:bold}
+#product_comparison td {
+	padding:6px;
+	vertical-align:top
+}
+
+#product_comparison .product_image {
+	display:block;
+	text-align:center
+}
+.comparison_product_infos{text-align:center}
+#product_comparison h5 {
+	margin-bottom:10px;
+	font-size:16px;
+	text-align:center;
+}
+#product_comparison .product_desc {
+	padding-bottom:5px;
+	font-size:12px;
+	text-align:center;
+}
+#product_comparison .lnk_more {position:relative; }
+#product_comparison .exclusive {position:relative; }
+#product_comparison .cmp_remove {position:relative; }
+
+
+.price_container {padding-bottom:10px; text-align:center;}
+#product_comparison .price {
+	font-weight:bold;
+	font-size:14px;
+}
+.discount {
+   display:inline-block;
+   padding:1px 5px;
+   font-size:10px;
+   font-weight:bold;
+   text-transform:uppercase;
+}
+
+.comparison_availability_statut {display:none}
+
+#product_comparison .cmp_remove {}
+
+.ajax_add_to_cart_button {
+	
+	padding-left:38px !important
+}
+.ajax_add_to_cart_button span {
+  
+}
+
+/* Color, Background and Border */
+
+table#product_comparison {
+	border-bottom:1px solid #ccc;
+}
+#product_comparison td {
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc; border-right:1px solid #ccc;
+}
+#product_comparison td.td_empty{
+	border:none;
+	background:#fff;
+}
+#product_comparison tr.comparison_header,
+#product_comparison td.comparison_feature_even {background:#f8f8f8}
+
+#product_comparison h5 {
+	color:#000;
+}
+#product_comparison .product_desc {
+	color:#666;
+}
+#product_comparison h5 a{color:#0088CC;}
+
+#product_comparison .price {
+	color:#990000
+}
+.discount {
+   color:#fff;
+	background:#9B0000
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+.header #search_block_top{float:right; margin:0px; position:absolute; top:57px; right:0px;}
+.header #search_block_top p{margin:0px; width:234px;}
+.header #search_block_top input.search_query {float:left; width:135px; margin:1px 4px 0 0px; padding-top:7px; padding-bottom:7px;    }
+.header #search_block_top input.button{width:auto; height:33px; text-transform:uppercase; border:none; margin:0px; padding-left:16px; padding-right:16px;}
+.header .searchbox {}
+
+
+/* Color and Background */
+
+.header #search_block_top input.button{background-image:none;}

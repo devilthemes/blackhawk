@@ -1,0 +1,115 @@
+div.addresses {
+   position:relative;
+   padding:15px;
+   font-size:12px;
+   }
+
+ul.address {
+   list-style-type:none;
+   float:left;
+   position:relative;
+   width:345px;
+   font-size:14px;
+   
+}
+p.address_delivery.select label{text-align:left; width:250px;}
+#address_delivery {margin-right:35px;}
+#address_invoice {margin-right:0}
+#delivery_address {margin-right:65px;}
+
+ul.address li {
+	padding:0 15px;
+	font-size:14px;
+	line-height:18px;
+	}
+
+ul.address li.address_firstname,
+ul.address li.address_company {
+	margin-top:8px
+}
+
+ul.address  li.address_update {
+	margin-top:20px
+}
+ul.address  li.address_update,
+ul.address li.address_delete {
+	font-size:11px;
+   text-transform:none
+}
+
+.address_add {
+   padding:20px 0; text-align:center;
+}
+.address_select {
+	width: 200px;
+	margin-left: 10px;
+}
+label[for=id_address_delivery], label[for=id_address_invoice] {
+	float: left;
+	width: 225px;
+}
+.addressesAreEquals label {
+	margin-left: 5px;
+}
+.addressesAreEquals input {
+	float: left;
+	margin:0 5px 0 0;
+}
+p.address_delivery, p.addressesAreEquals {
+	padding-bottom: 14px
+}
+.addresses ul.address {
+   list-style-type:none;
+   float:left;
+   position:relative;
+	margin:30px 30px 0 50px;
+   width:345px;
+}
+.addresses ul.address.alternate_item,
+.addresses ul.address.last_item {margin-right:0}
+.addresses ul.address li {
+
+	
+}
+ ul.address .address_title {
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+    
+    text-shadow: 0 0 0 #CCCCCC;
+    text-transform: capitalize;
+}
+.addresses ul.address .address_update,
+.addresses ul.address .address_delete {
+	font-size:11px;
+   text-transform:none
+}
+.addresses ul.address .address_update a, .addresses ul.address  .address_delete a{font-weight:bold }
+
+/* Color, Background and Border */
+
+div.addresses {
+   border:1px solid #ccc;
+	background:#f8f8f8
+}
+
+ul.address {
+   border:solid 1px #ccc;
+}
+
+a.button_large{color:#fff;}
+.addresses  p.address_add a{color:#fff;}
+.address_select {
+	border:1px solid #ccc;
+}
+ ul.address .address_title {
+	border-bottom:solid 1px #ccc;
+	background:  0 0 #333;
+    color: #fff;
+}
+.addresses ul.address .address_update{color:#30B9E7}
+.addresses ul.address .address_update a, .addresses ul.address  .address_delete a{color:#2CAED9;}
+
+
+

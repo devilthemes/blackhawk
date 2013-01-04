@@ -1,0 +1,90 @@
+#header  #cart_block {font-size:arial; font-size:12px;} 
+#header  #cart_block  p{margin-bottom:0px;}
+#header  #cart_block h4 {
+padding:5px;
+margin-bottom:0px;
+}
+#header  #cart_block h4  a{ font-family:arial; font-size:14px; font-weight:normal; text-decoration:none; display: block;padding:0 0 0 30px;}
+#header #cart_block {
+z-index: 10;
+display:none;
+position: absolute;
+right: 0;
+top: 125px;
+height: auto;
+width: 250px;
+}
+
+#right_column #cart_block #block_cart_collapse,#right_column #cart_block #block_cart_expand{width:14px; height:8px; display:block; float:right;  margin:16px 10px 0 0; cursor:pointer;}
+
+
+#right_column #cart_block .block_content{padding:0 10px 10px 10px; overflow:hidden}
+#right_column #cart_block .block_content #cart_block_summary{font-weight:bold}
+#right_column #cart_block .block_content #cart_block_list dl dt{ margin-top:5px}
+#right_column #cart_block .block_content #cart_block_list dl dd{line-height:11px; padding-bottom:5px;}
+#right_column #cart_block .block_content #cart_block_list dl dd a{line-height:11px;}
+#cart_block_list a#button_order_cart{float:right}
+#right_column p#cart-buttons,#right_column #cart-prices{margin-bottom:10px;}
+#right_column #cart-prices{padding-top:5px}
+
+#right_column p#cart-buttons a,#right_column #cart-prices a{margin-bottom:0px;}
+#right_column #cart-prices #cart_block_shipping_cost, #right_column #cart-prices  #cart_block_total{float:right; font-weight:bold}
+
+#right_column #cart_block a#button_order_cart{padding-top:6px; padding-bottom:6px; clear:both; margin:0px auto; float:none}
+
+#right_column #cart_block  p#cart-buttons{text-align:center;}
+
+
+#header  #cart_block .block_content{ overflow:hidden}
+#header  #cart_block p#cart-buttons {padding-top:10px;}
+#header  #cart_block p#cart-buttons a {margin-bottom:0px; padding-top:6px; padding-bottom:6px; text-align:center}
+#header  #cart_block p#cart-buttons a.button{padding:6px 20px;}
+#header  #cart_block p#cart-buttons a#button_order_cart{ padding:6px 20px;}
+#header  #cart_block #cart_block_summary{font-weight:bold; padding-bottom:5px; clear:both; display:block}
+#header  #cart_block  p.hidden{display:none}
+#cart_block.cart_block_hover {display:block}
+#cart_block h4 span {	float: right;	padding-left: 10px;	text-transform: none;	cursor: pointer}
+#cart_block  .block_content {padding:8px 8px 16px 8px;}
+
+#cart_block .quantity-formated {	display:inline-block; min-width:18px;}
+#cart_block .cart_block_product_name {font-weight:bold}
+#cart_block .remove_link {	float:right;	display:inline-block;	margin:1px 0 0 5px;	height:12px;	width:12px}
+#cart_block .remove_link a {	display:inline-block;	height:12px;	width:12px;}
+#cart_block .price {	float:right}
+#cart_block #cart_block_list dl {padding-bottom:10px}
+#cart_block #cart_block_list dt {padding:5px;}
+#cart_block #cart_block_list dt a {font-weight:bold}
+#cart_block #cart_block_list dd {padding:5px;}
+#cart_block #cart-prices {line-height:20px;	font-weight:bold}
+#cart_block #cart_block_shipping_cost,#cart_block #cart_block_total {	float:right}
+#cart_block #cart_block_shipping_cost {font-weight:bold}
+#cart_block #cart-buttons .button_small {margin-bottom:0px;}
+#cart_block #cart-buttons  #button_order_cart {float:right;	padding-left:20px;	margin-bottom:0px;}
+#cart_block table#vouchers {clear: both; width:100%}
+#cart_block table#vouchers tr td{	padding: 2px;}
+#cart_block table#vouchers tr td.quantity{margin-right:5px;	min-width:18px}
+#cart_block table#vouchers tr td.delete{	padding-left: 0; padding-right: 0; text-align: right; width: 15px;}
+#right_column #cart_block .hidden{display:none;}
+#cart_block .block_content  .remove_link{padding-top:2px;}
+
+/* Color, Background and Border */
+
+#header  #cart_block {border:solid 1px #333} 
+
+#header  #cart_block h4  a{}
+
+
+#right_column #cart_block .block_content #cart_block_list dl dd{color:#666; }
+#right_column #cart_block .block_content #cart_block_list dl dd a{color:#666}
+#right_column #cart-prices{border-top:1px solid #A4A4A5}
+
+#header  #cart_block .block_content{background:#f4f4f4;}
+
+#cart_block h4 span {background-position: left top;	background-repeat: no-repeat;}
+
+#cart_block .remove_link a {background: url(img/icon/cross.png) no-repeat 0 0}
+
+#cart_block #cart_block_list dt {border-top:solid 1px #ccc}
+
+#cart_block #cart-prices {border-top:1px solid #999}
+#right_column #cart_block .block_content #cart_block_list dl dt{border-top:solid 1px #a4a4a5}

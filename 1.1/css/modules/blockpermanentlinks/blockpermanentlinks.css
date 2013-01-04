@@ -1,0 +1,13 @@
+.header  ul#header_links{float:right; margin-top:18px; }
+.header  ul#header_links li{float:left; font-size:11px; margin:0px; text-transform:capitalize }
+.header ul#header_links li a{text-decoration:none; padding:0 3px;}
+
+
+/* Color and Background*/
+
+.header  ul#header_links li{color:#666;}
+
+.header ul#header_links li a:hover{color:#fff}
+
+/* Change Color */
+.header ul#header_links li a{color:#000; }

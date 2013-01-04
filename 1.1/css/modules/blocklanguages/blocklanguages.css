@@ -1,0 +1,9 @@
+ul.language{position:absolute; top:18px; left:0px; margin:0px;}
+ul.language li{float:left; font-size:11px; margin:0px; padding:0 3px; text-transform:uppercase}
+ul.language li a{text-decoration:none;  }
+
+
+/* Color Background */
+ul.language li{ color:#999; background:url(images/bar.jpg) 100% 50% no-repeat;}
+ul.language li a{ color:#999;}
+ul.language li.selected_language {color:#33ccff}

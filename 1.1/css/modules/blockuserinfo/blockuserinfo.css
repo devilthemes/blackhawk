@@ -1,0 +1,22 @@
+.header #header_user p,.header #header_user ul,.header #header_user ul li{margin-bottom:0px;}
+.header #header_user{clear:both; display:block; width:940px; position:absolute; top:107px; font-size:14px; line-height:15px;}
+.header #header_user a{text-decoration:none}
+.header #header_user  li{float:right; margin-left:5px; padding-left:5px; margin-bottom:0px; line-height:15px;}
+.header #header_user p#header_user_info{float:left}
+.header #header_user ul#header_nav li#shopping_cart{text-decoration:none;}
+.header #header_user ul#header_nav li#shopping_cart span{text-decoration:none; float:left; padding-right:3px;}
+.header #header_user ul#header_nav li#shopping_cart a{text-decoration:none}
+.header #header_user ul#header_nav {float:right; width:400px}
+.header #header_user .hidden{display:none}
+
+/* Color and Background */
+
+
+.header #header_user ul#header_nav li#shopping_cart{border-left:solid 1px #666}
+
+
+
+/* Change Color */
+.header #header_user{color:#000;}
+.header #header_user a{color:#666;}
+.header #header_user ul#header_nav li#shopping_cart span{color:#666;}

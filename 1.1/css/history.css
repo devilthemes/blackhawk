@@ -1,0 +1,94 @@
+#history #center_column h1{margin-top:20px}
+#history #center_column h4{
+	margin:20px 0;
+	padding:15px 20px;
+}
+#history #center_column h4 input {
+	position: relative;
+   top: -8px;
+	float:right;
+}
+
+.info-order {
+	margin-bottom:20px;
+}
+.info-order p {padding-bottom:10px}
+.info-order p .icon {
+	position:relative;
+	top:2px;
+	left:0
+}
+
+#order-list {
+	margin-bottom:20px;
+	width:100%;
+}
+#order-list  th {
+	
+}
+
+#order-list  td {
+	padding:12px;
+	font-weight:bold;
+	font-size:12px;
+	vertical-align:top
+}
+
+.adresses_bloc {margin-bottom:0px; padding:0 60px}
+.adresses_bloc  .item {float:left}
+.adresses_bloc .alternate_item{float:right}
+
+.detail_step_by_step {width:100%}
+
+#order-detail-content table {width:100%}
+#order-detail-content table .order_qte_input {display:none}
+
+#sendOrderMessage {margin-bottom:20px}
+#sendOrderMessage p {padding:10px}
+#sendOrderMessage  label{padding-bottom:5px;}
+#sendOrderMessage  h3{border-radius:3px 3px 0 0; -webkit-border-radius:3px 3px 0 0;}
+#returnOrderMessage .textarea textarea,
+#sendOrderMessage .textarea textarea {
+	width:100%;}
+
+
+/* Color, Background and Border */
+
+#history #center_column h4{
+	background:#ccc
+}
+
+#order-list {
+	border:1px solid #999;
+	border-bottom:none
+}
+
+#order-list tr.alternate_item {background-color: #f3f3f3}
+#order-list  td {
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+}
+#order-list  td.history_detail {border-right:none;}
+
+#order-list .last_item  td {border-bottom:1px solid #999}
+
+.detail_step_by_step tr.last_item td {border-bottom:1px solid #999}
+#order-detail-content table tr.totalprice td {border-bottom:1px solid #999}
+#order-detail-content table tr:nth-child(even) {background:#f3f3f3;}
+#sendOrderMessage  h3{border-top:0px;}
+#returnOrderMessage .textarea textarea,
+#sendOrderMessage .textarea textarea {
+	border:1px solid #999
+}
+
+
+
+
+
+
+
+
+
+
+
+
